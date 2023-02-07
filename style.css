@@ -1,16 +1,9 @@
 :root {
-  --main-gradient: linear-gradient(
-    90deg,
-    rgba(221, 181, 48, 1) 0%,
-    rgba(172, 170, 208, 0.7987570028011204) 39%,
-    rgba(72, 0, 255, 0.8295693277310925) 100%
-  );
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
-  background: var(--main-gradient);
   margin: 20px;
 }
 
