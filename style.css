@@ -1,3 +1,23 @@
+@media (min-width: 992px) { 
+  h1 {
+    font-size: 96px;
+  }
+  
+  h2 {
+    font-size: 48px;
+  }
+ }
+
+ @media (max-width: 576px) {
+  a {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+ }
+
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
@@ -25,13 +45,7 @@ h3 {
   margin: 0;
 }
 
-h1 {
-  font-size: 96px;
-}
 
-h2 {
-  font-size: 48px;
-}
 
 h3 {
   font-size: 24px;
